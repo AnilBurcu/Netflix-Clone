@@ -16,6 +16,7 @@
 		188ED0D42A67D60A00903D50 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 188ED0D32A67D60A00903D50 /* SDWebImageMapKit */; };
 		188ED0D62A67E97400903D50 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ED0D52A67E97400903D50 /* TitleTableViewCell.swift */; };
 		188ED0D82A67ECD600903D50 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ED0D72A67ECD600903D50 /* TitleViewModel.swift */; };
+		18AE014D2A6AE64900D9A29A /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE014C2A6AE64900D9A29A /* YoutubeSearchResponse.swift */; };
 		18F674EF2A555FB90046257F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F674EE2A555FB90046257F /* AppDelegate.swift */; };
 		18F674F12A555FB90046257F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F674F02A555FB90046257F /* SceneDelegate.swift */; };
 		18F674F32A555FB90046257F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F674F22A555FB90046257F /* MainTabBarViewController.swift */; };
@@ -37,6 +38,7 @@
 		188ED0CE2A67D4ED00903D50 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		188ED0D52A67E97400903D50 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		188ED0D72A67ECD600903D50 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		18AE014C2A6AE64900D9A29A /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		18F674EB2A555FB90046257F /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F674EE2A555FB90046257F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F674F02A555FB90046257F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				1869717E2A55B1F20034DD98 /* Title.swift */,
+				18AE014C2A6AE64900D9A29A /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				18F674F12A555FB90046257F /* SceneDelegate.swift in Sources */,
 				184CDEC02A6854300084A22C /* SearchResultsViewController.swift in Sources */,
 				186F724E2A581C86004B36B0 /* Extensions.swift in Sources */,
+				18AE014D2A6AE64900D9A29A /* YoutubeSearchResponse.swift in Sources */,
 				18F675062A55619C0046257F /* UpcomingViewController.swift in Sources */,
 				18F675042A5561810046257F /* HomeViewController.swift in Sources */,
 				1869717F2A55B1F20034DD98 /* Title.swift in Sources */,
