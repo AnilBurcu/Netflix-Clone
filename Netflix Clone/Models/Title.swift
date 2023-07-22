@@ -35,8 +35,7 @@ struct Title: Codable {
 
 
 /*
- 
- 
+
          {
      adult = 0;
      "backdrop_path" = "/tTfnd2VrlaZJSBD9HUbtSF3CqPJ.jpg";

@@ -39,8 +39,6 @@ class HomeViewController: UIViewController {
         
         homeFeedTable.tableHeaderView = headerView
         
-        
-        
 
         
     }
@@ -81,6 +79,8 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionTableViewCell.identifier, for: indexPath) as? CollectionTableViewCell else {
             return UITableViewCell()
         }
+        
+        cell.delegate = self
         
         
 
@@ -172,5 +172,20 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
                     }
                     
                 }
+
+extension HomeViewController:CollectionViewTableViewCellDelegate {
+    
+    
+    func collectionViewTableViewCellDidTapCell(_ cell: CollectionTableViewCell, viewModel: TitlePreviewViewModel) {
+        
+        DispatchQueue.main.async {[weak self] in
+            let vc = TitlePreviewViewController()
+            vc.configure(with: viewModel)
+            self?.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
+    
+}
                 
             
